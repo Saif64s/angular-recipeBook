@@ -1,0 +1,5 @@
+{
+  "angular.enable-strict-mode-prompt": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.shell.osx": "/bin/zsh"
+}

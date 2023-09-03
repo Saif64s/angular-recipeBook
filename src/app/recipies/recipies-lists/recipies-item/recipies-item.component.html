@@ -1,0 +1,9 @@
+<a href="#" class="list-group-item text-bg-primary my-2 clearfix p-2 rounded-3" (click)="onSelected()">
+    <div class="float-start">
+        <h4 class="fw-bold"> {{recipe.$name}} </h4>
+        <p> {{recipe.$description}} </p>
+    </div>
+    <div class="float-end">
+        <img [src]="recipe.$imagePath" [alt]="recipe.$name" class="img-fluid" style="max-height: 50px;">
+    </div>
+</a>
