@@ -1,12 +1,29 @@
+import { Ingredient } from '../shared/ingredient.model';
+
 export class Recipe {
   private name: string;
   private description: string;
   private imagePath: string;
+  private ingredient: Ingredient[];
 
-  constructor($name: string, $description: string, $imagePath: string) {
+  /**
+   * Getter $ingredient
+   * @return {Ingredient[]}
+   */
+  public get $ingredient(): Ingredient[] {
+    return this.ingredient;
+  }
+
+  constructor(
+    $name: string,
+    $description: string,
+    $imagePath: string,
+    $ingredients: Ingredient[]
+  ) {
     this.name = $name;
     this.description = $description;
     this.imagePath = $imagePath;
+    this.ingredient = $ingredients;
   }
 
   /**
