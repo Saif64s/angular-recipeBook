@@ -9,13 +9,14 @@ export class RecipeService {
 
   private recipes: Recipe[] = [
     new Recipe(
-      'A test recipe',
+      'Double Decker Cheese Burger',
       'test for description',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkM86DVrKAmC2xI654py7cLmaudlmgnFvzLVIHayUPLA&s',
+      'https://freshburger.ca/wp-content/uploads/2020/09/highcompress_Kenix-Angus.png',
       [
-        new Ingredient('Apple', 5),
-        new Ingredient('Banana', 5),
-        new Ingredient('Meat', 5),
+        new Ingredient('Bun', 2),
+        new Ingredient('Letuce', 3),
+        new Ingredient('Cheese', 3),
+        new Ingredient('Meat', 2),
       ]
     ),
     new Recipe(
