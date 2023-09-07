@@ -20,9 +20,9 @@ export class RecipeService {
       ]
     ),
     new Recipe(
-      'A test recipe 2',
+      'Mutton Biriyani with Raita',
       'test for description 2',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkM86DVrKAmC2xI654py7cLmaudlmgnFvzLVIHayUPLA&s',
+      'https://bonmasala.com/wp-content/uploads/2022/10/mutton-biriyani-recipe.jpeg',
       [
         new Ingredient('Meat', 5),
         new Ingredient('Banana', 5),
