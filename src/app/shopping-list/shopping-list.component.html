@@ -1,11 +1,13 @@
-<div class="row">
-    <div class="col-10">
-        <app-shopping-list-edit></app-shopping-list-edit>
-        <hr>
-        <ul class="list-group" *ngFor="let item of ingredient">
-            <a href="#" class="list-group-item text-bg-info my-1" style="cursor: pointer;">
-                {{item.name}} - {{item.amount}}
-            </a>
-        </ul>
+<div class="container-fluid d-flex justify-content-center pt-5">
+    <div class="row">
+        <div class="col-12">
+            <app-shopping-list-edit></app-shopping-list-edit>
+            <hr>
+            <ul class="list-group" *ngFor="let item of ingredient">
+                <a href="#" class="list-group-item text-bg-info my-1" style="cursor: pointer;">
+                    {{item.name}} - {{item.amount}}
+                </a>
+            </ul>
+        </div>
     </div>
 </div>
